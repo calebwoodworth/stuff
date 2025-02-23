@@ -1,0 +1,71 @@
+/* default.css */
+body {
+    font-family: Arial, sans-serif; /* Default font */
+    background-color: white; /* White background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.bad-contrast {
+    color: yellow;
+    background-color: white;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.papyrus {
+    font-family: 'Papyrus', sans-serif;
+}
+
+.comic-sans {
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.times {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.black-font {
+    color: black;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.bordered {
+    border: 2px solid black;
+}
+
+.inline-example {
+    color: red;
+    background-color: yellow;
+    border: 1px solid blue;
+}
