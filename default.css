@@ -1,7 +1,7 @@
 /* default.css */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif; /* Default font */
+    background-color: white; /* White background */
     margin: 0;
     padding: 0;
 }
@@ -39,4 +39,37 @@ h1, h2 {
 
 .underline {
     text-decoration: underline;
+}
+
+/* Specific font styles */
+.papyrus {
+    font-family: 'Papyrus', sans-serif;
+}
+
+.comic-sans {
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.times {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.black-font {
+    color: black;
+}
+
+.white-background {
+    background-color: white;
+}
+
+/* Border styles */
+.bordered {
+    border: 2px solid black;
+}
+
+/* Inline style example */
+.inline-example {
+    color: red;
+    background-color: yellow;
+    border: 1px solid blue;
 }
