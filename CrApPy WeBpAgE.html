@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BAD PAGE</title>
+    <link rel="stylesheet" href="default.css">
     <style>
         body { font-family: Papyrus, fantasy; background-color: white; }
-        .bad-text { font-family: "Comic Sans MS", cursive; color: black; }
-        .huge-text { font-size: 50px; }
-        .ugly-border { border: 10px dashed red; border-right-style: solid; border-top-style: double; border-bottom-style: dotted; }
-        .bad-contrast { color: yellow; background-color: white; }
-        .underline { text-decoration: underline; }
+        nav { background-color: #333; padding: 10px; text-align: center; }
+        nav a { color: white; padding: 10px 20px; text-decoration: none; display: inline-block; }
+        nav a:hover { background-color: #575757; }
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="crappy-page.html">Crappy Page</a> 
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+    
     <h2>This is an H2 Before an H1</h2>
     <h1>Now Here's an H1</h1>
     
@@ -30,7 +39,7 @@
     
     <p style="margin: 10px; padding: 30px;">This paragraph has inconsistent margins and padding.</p>
     
-    <img src="photo1.png" width="300" height="400">
+    <img src="images/photo1.png" width="300" height="400">
     <h3>Caption: A relevant caption for the image.</h3>
     
     <div class="ugly-border">This div has a terrible border.</div>
@@ -38,15 +47,6 @@
     <p style="font-family: Times New Roman, serif; font-size: 12px;">This text is in Times New Roman.</p>
 
     <p style="font-family: 'Comic Sans MS', cursive;">This paragraph uses Comic Sans.</p>
-
-    <p>
-        
-        
-    </p>
-    <p>
-        
-        
-    </p>
     
 </body>
 </html>
